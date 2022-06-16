@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=Poppins:wght@300;400;500;700");
+
+body{
+  font-family: 'Roboto', sans-serif;
+}
+
+h1{
+  font-size: 32px;
+  background-color: white;
+  color: dark brown;
+}
+
+h2{
+  font-size: 24px;
+  color: black;
+  padding: 8px;
+}
+
+a{
+  color: 3185FC;
+  text-decoration: none;
+  font-size: 48px;
+  margin: 2px;
+  padding: 10px;
+}
+
+a:hover{
+  color: 35281D;
+}
+
+p{
+  font-size: 16px;
+  text-align: justify;
+  background-color: white;
+  color : black;
+}
+
+.container {
+  width: 700px;   /* This sets the width */
+  padding: 10px;
+  margin: 0 auto; /* This automatically sets left/right margins */
+  border: 1px solid lightgrey;
+  border-radius:5px;
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+
+.img-center {
+  width: 250px; /* This sets the width */
+  display: block;
+  margin: 0 auto; /* This automatically sets left/right margins */
+}
+
+.text-center {
+  text-align: center;
+}
+
+.card-white{
+  background: white;
+  border: 1px solid lightgrey;
+  border-radius:10px;
+  box-shadow: 1px 1px 1px rgba(10, 10, 10, 0.2);
+  padding: 10px;
+  margin: 6px;
+}
+
+.list-inline {
+  display: inline-block;
+  list-style: none;
+  padding-left: 0px;
+}
+
+.btn-blue {
+  background-color: #6B72E1;
+  color: white;
+  padding: 15px 20px;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
